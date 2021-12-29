@@ -1,0 +1,38 @@
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.cardflex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  margin-left: 10px;
+  object-fit: contain;
+  position: relative;
+}
+.card h5 {
+  margin-top: -1px;
+}
+.header_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.rating {
+  position: absolute;
+  top: 190px;
+  right: 50px;
+  background-color: rgba(155, 155, 255, 0.5);
+  padding: 2px 38px;
+  margin-right: 2px;
+  font-size: larger;
+}
+
+image {
+  transition: all 0.5s ease-in;
+}
+.image:hover {
+  transform: scale(1.09);
+}
